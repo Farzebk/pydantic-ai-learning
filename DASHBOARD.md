@@ -10,10 +10,10 @@
 
 | | |
 |---|---|
-| **Current phase** | `PHASE 1` — Pydantic Fundamentals 🟡 |
+| **Current phase** | `PHASE 5` — Advanced Pydantic 🟡 |
 | **Also active** | `PHASE 0` — Python Foundations 🟡 |
-| **Current topic** | `Field()` |
-| **Just completed** | `BaseModel`, Pydantic vs PydanticAI |
+| **Current topic** | `Advanced Pydantic` |
+| **Just completed** | `model_dump()`, `model_dump_json()`, nested serialization |
 | **Next up** | Types → Nested Models → Validation |
 | **Milestone tier** | 🥉 Beginner (in progress) |
 | **Overall progress** | `██░░░░░░░░░░░░░░░░░░` ~7% (2 / 22 phases started) |
@@ -61,11 +61,11 @@ A phase is only 🟢 when I can **explain it in my own words** and **write the c
 
 | # | Phase | Status | Progress | Core Skill Unlocked |
 |:---:|---|:---:|---|---|
-| 0 | Python Foundations | 🟡 | `███░░░░░░░` | Read and write modern, typed Python |
-| 1 | Pydantic Fundamentals | 🟡 | `████░░░░░░` | Define and instantiate models |
-| 2 | Pydantic Models & Types | 🔴 | `░░░░░░░░░░` | Model any real-world data shape |
-| 3 | Pydantic Validation | 🔴 | `░░░░░░░░░░` | Reject bad data before it spreads |
-| 4 | Pydantic Serialization | 🔴 | `░░░░░░░░░░` | Move between Python ⇄ dict ⇄ JSON |
+| 0 | Python Foundations | 🟢 | `███░░░░░░░` | Read and write modern, typed Python |
+| 1 | Pydantic Fundamentals | 🟢 | `████░░░░░░` | Define and instantiate models |
+| 2 | Pydantic Models & Types | 🟢 | `░░░░░░░░░░` | Model any real-world data shape |
+| 3 | Pydantic Validation | 🟢 | `░░░░░░░░░░` | Reject bad data before it spreads |
+| 4 | Pydantic Serialization | 🟢 | `░░░░░░░░░░` | Move between Python ⇄ dict ⇄ JSON |
 | 5 | Advanced Pydantic | 🔴 | `░░░░░░░░░░` | Config, generics, custom types |
 | 6 | JSON Schema & Structured Data | 🔴 | `░░░░░░░░░░` | Describe data to an LLM |
 
@@ -107,7 +107,7 @@ Each phase below lists its **goal**, the **key points** to cover, and the **exit
 
 ---
 
-### 🐍 Phase 0 — Python Foundations 🟡
+### 🐍 Phase 0 — Python Foundations 🟢
 
 **Goal:** Build a Python base strong enough to understand Pydantic and modern AI application development.
 
@@ -129,7 +129,7 @@ Each phase below lists its **goal**, the **key points** to cover, and the **exit
 
 ---
 
-### 🧱 Phase 1 — Pydantic Fundamentals 🟡 ← *current*
+### 🧱 Phase 1 — Pydantic Fundamentals 🟢 
 
 **Goal:** Understand what Pydantic is, why it exists, and how it turns raw data into validated Python objects.
 
@@ -153,7 +153,7 @@ Pydantic → Data Validation → Structured Python Data → JSON Schema
 
 ---
 
-### 🏷️ Phase 2 — Pydantic Models & Types 🔴
+### 🏷️ Phase 2 — Pydantic Models & Types 🟢
 
 **Goal:** Model complex, strongly typed data comfortably.
 
@@ -171,7 +171,7 @@ Pydantic → Data Validation → Structured Python Data → JSON Schema
 
 ---
 
-### 🛡️ Phase 3 — Pydantic Validation 🔴
+### 🛡️ Phase 3 — Pydantic Validation 🟢
 
 **Goal:** Control how Pydantic validates, transforms, and rejects data.
 
@@ -186,7 +186,7 @@ Pydantic → Data Validation → Structured Python Data → JSON Schema
 
 ---
 
-### 🔄 Phase 4 — Pydantic Serialization 🔴
+### 🔄 Phase 4 — Pydantic Serialization 🟢
 
 **Goal:** Move data confidently between Python objects, dictionaries, and JSON.
 
@@ -206,7 +206,7 @@ dict → model_validate() → Model → model_dump() → dict → JSON
 
 ---
 
-### 🧬 Phase 5 — Advanced Pydantic 🔴
+### 🧬 Phase 5 — Advanced Pydantic 🟡 ← *current*
 
 **Goal:** Go beyond basic models.
 
